@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Inter:wght@400;500;600;700;800;900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+.setBtn button{
+    width: 30%;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}

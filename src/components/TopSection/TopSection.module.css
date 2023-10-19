@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Inter:wght@400;500;600;700;800;900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+.logo{
+    margin: 10px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: larger;
+    /* background-color: #D0E7D2; */
+    border-radius: 4px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Exo', sans-serif;
+    width: 400px;
+    margin: 5px auto;
+    background-color: #B0D9B1;
+    padding: 10px;
+    border-radius: 14px;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto ;
+    
+}
+.inputs input{
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    
+}
+.inputs input::placeholder{
+    font-family: 'Exo';
+
+}
+.header{
+    text-align: center;
+}
+.submitBtn{
+    text-align: center;
+}
+.datePicker{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.inputs p sup{
+    font-size: larger;
+    font-weight: 700;
+}
+.inputs p{
+    font-size: 12px;
+}
+@media (max-width: 500px) {
+    .inputBox{
+        width: 300px;
+    }
+  }
